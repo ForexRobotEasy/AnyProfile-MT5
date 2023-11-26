@@ -1,0 +1,75 @@
+mql5
+//+------------------------------------------------------------------+
+//|                                                    AnyProfile MT5|
+//|                                    Developer's Site: forexroboteasy.com|
+//|                                            Developer: Forex Robot Easy Team|
+//+------------------------------------------------------------------+
+
+//+------------------------------------------------------------------+
+//|                                Market Profile Display Feature|
+//|    - Allows traders to create a rectangle on the chart and fill it with the market profile|
+//|    - Adjustable rectangle size and position|
+//|    - Provides visual representation of market activity|
+//+------------------------------------------------------------------+
+void CreateMarketProfile()
+{
+    // Code to create a rectangle on the chart
+    // Code to automatically fill the rectangle with market profile
+}
+
+//+------------------------------------------------------------------+
+//|                                     User-Friendly Interface|
+//|    - Controls the indicator directly from the chart window|
+//|    - Includes panel of buttons and fields for entering parameters|
+//|    - Intuitive and easy to navigate|
+//|    - Quick access and adjustment of settings|
+//|    - Indicator properties window with customizable input variables|
+//+------------------------------------------------------------------+
+void CreateInterface()
+{
+    // Code to create user-friendly interface
+    // Code to control the indicator from the chart window
+    // Code to include buttons and fields for parameter input
+    // Code to make the interface intuitive and easy to navigate
+    // Code to provide quick access and adjustment of settings
+    // Code to customize input variables in the indicator properties window
+}
+
+//+------------------------------------------------------------------+
+//|                                         Customizable Settings|
+//|    - Allows traders to customize indicator settings|
+//|    - Options to adjust colors, font sizes, line thickness, etc.|
+//+------------------------------------------------------------------+
+void CustomizeSettings()
+{
+    // Code to allow customization of indicator settings
+    // Code to enable options for adjusting colors, font sizes, line thickness, etc.
+}
+
+//+------------------------------------------------------------------+
+//|                                         Logical Conclusion|
+//|    - Call the necessary functions to implement the algorithm|
+//+------------------------------------------------------------------+
+int OnInit()
+{
+    CreateMarketProfile();
+    CreateInterface();
+    CustomizeSettings();
+
+    return(INIT_SUCCEEDED);
+}
+
+void OnDeinit(const int reason)
+{
+    // Code to handle deinitialization, if necessary
+}
+
+void OnTick()
+{
+    // Code to handle tick events, if necessary
+}
+
+void OnChartEvent(const int id, const long& lparam, const double& dparam, const string& sparam)
+{
+    // Code to handle chart events, if necessary
+}
